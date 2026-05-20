@@ -1,0 +1,43 @@
+name: Deploy Resume
+
+on:
+  push:
+    branches: ["main"]
+
+env:
+  THEME: jsonresume-theme-even
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 26
+
+      - name: Build Resume HTML
+        run: |
+          mkdir public
+          npm install resumed $THEME
+          npx resumed render resume.json --theme $THEME -o public/index.html
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

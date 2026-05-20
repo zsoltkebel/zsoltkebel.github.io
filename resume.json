@@ -1,0 +1,148 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Zsolt Kébel",
+    "label": "Software Engineer",
+    "location": {
+      "city": "London",
+      "countryCode": "UK"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "zsoltkebel",
+        "url": "https://linkedin.com/in/zsoltkebel/"
+      },
+      {
+        "network": "GitHub",
+        "username": "zsoltkebel",
+        "url": "https://github.com/zsoltkebel"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Aberdeen Software Factory",
+      "position": "Full-Stack Software Engineer",
+      "url": "https://www.abdn.ac.uk/ncs/departments/computing-science/aberdeen-software-factory/",
+      "startDate": "2025-05-01",
+      "endDate": "2025-07-31",
+      "highlights": [
+        "Implemented and deployed a full-stack web application to display archaeological artefacts using the RTI library, enabling users to interactively view objects under varying lighting conditions (live demo: sbx-rti-1.abdn.ac.uk)",
+        "Developed a custom REST API to upload, store, and retrieve artefact data and images efficiently, with pagination supporting thousands of entries",
+        "Utilised Vue, Docker, Python, JavaScript to build the application from scratch",
+        "Selected for funding by British Academy's Talent Development Award"
+      ]
+    },
+    {
+      "name": "Science and Technology Facilities Council (STFC)",
+      "position": "Software Engineer, Experiment Controls Group",
+      "url": "https://www.isis.stfc.ac.uk",
+      "startDate": "2023-07-01",
+      "endDate": "2024-06-30",
+      "highlights": [
+        "Implemented over 60 features and bug fixes across backend and frontend components of experiment control system deployed on ISIS Neutron and Muon Source using Java, Python, C, Git, EPICS",
+        "Chaired weekly Agile/Scrum meetings for planning and review across sprints",
+        "Refactored a key internal script into a modern Python package, accelerating equipment integration and improving reliability",
+        "Implemented unit and end-to-end tests for the Java desktop application",
+        "Configured continuous integration and delivery pipelines in Jenkins",
+        "Collaborated with over 10 scientists and PhD students running physics experiments; diagnosed and resolved any issues reported"
+      ]
+    },
+    {
+      "name": "University of Aberdeen",
+      "position": "Teaching Assistant and Class Representative",
+      "url": "https://www.abdn.ac.uk",
+      "startDate": "2020-09-01",
+      "endDate": "2022-04-30",
+      "highlights": [
+        "Provided clear explanations and guided problem-solving in C and Assembly, improving student comprehension and engagement",
+        "Collected feedback from hundreds of students to drive actionable improvements in Student-Staff Liaison Committee meetings"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University College London",
+      "url": "https://www.ucl.ac.uk",
+      "area": "Software Systems Engineering",
+      "studyType": "Msc",
+      "startDate": "2025-09-01",
+      "endDate": "2026-09-01",
+      "courses": [
+        "Requirements Engineering and Software Architecture",
+        "Engineering for Data Intensive Systems",
+        "Software Validation and Verification",
+        "Applied Deep Learning"
+      ]
+    },
+    {
+      "institution": "University of Aberdeen",
+      "url": "https://abdn.ac.uk",
+      "area": "Computing Science with Industrial Placement",
+      "studyType": "Msci",
+      "startDate": "2020-09-01",
+      "endDate": "2025-07-31",
+      "score": "First-Class Honours Distinction with GPA 19.8/22.0 (90%)"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Computing Student of the year",
+      "date": "2022-01-01",
+      "awarder": "British Computer Society (BCS)"
+    },
+    {
+      "title": "Students Taking Active Roles award",
+      "date": "2021-01-01",
+      "awarder": "University of Aberdeen"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Machine Learning Web Visualisation",
+      "startDate": "2025-01-01",
+      "endDate": "2025-05-31",
+      "highlights": [
+        "Implemented and trained machine learning models for real-time interactive visualisation using TensorFlow, JavaScript and D3"
+      ],
+      "url": "https://capsnet-playground.vercel.app"
+    },
+    {
+      "name": "Indoor Navigation Web App",
+      "startDate": "2023-07-01",
+      "endDate": "2025-01-31",
+      "highlights": [
+        "Built a full-stack web app with JavaScript, React, Next.js, and Firebase",
+        "Engineered Al-based pathfinding system with a NoSQL database, enabling fast and efficient indoor routing",
+        "Secured £2,000 in funding and dedicated office space from the University of Aberdeen and ABVentures incubator",
+        "Grew user adoption to over 80 weekly users by transforming a university project into a functional, widely used solution",
+        "Led a four-member team through full app lifecycle, from ideation to deployment, applying iterative development practices"
+      ],
+      "url": "https://atroom.at/map/Bhv1TE6DgJ9tS1sLqBOVc"
+    },
+    {
+      "name": "Published Open-Source Package on NPM",
+      "startDate": "2023-08-01",
+      "highlights": [
+        "Developed a React hook for accessing device orientation via the browser API, simplifying integration for other developers",
+        "Published and maintained the package on the NPM registry, achieving 80+ downloads per week, demonstrating active engagement in the open-source community"
+      ],
+      "url": "https://npmjs.com/package/react-use-device-orientation"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "Hungarian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "1000+ Duolingo streak"
+    }
+  ]
+}
